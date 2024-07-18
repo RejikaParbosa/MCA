@@ -1,0 +1,7 @@
+<?xml stylesheet type="text/xsl" href="studentstyle.xsl">
+<class>
+	<student>
+		<firstname> Kamisama </firstname>
+		<lastname> Kiss </lastname>
+	</student>
+</class>
