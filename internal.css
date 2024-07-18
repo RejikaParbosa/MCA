@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internal CSS</title>
+	<style> main{text-align:centre}
+		try{color:green}
+</head>
+<div class="main">Hello</div>
+<body>
+	<p style="color:pink; font-size:50px; text-align:center">
+	MCA Department
+	</p>
+</body>
+</html>
