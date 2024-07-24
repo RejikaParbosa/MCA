@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function reverseString()
+            {
+                let str=document.getElementById("sentence").value;
+                let newString = "";
+                for(let i = str.length-1; i>=0;i--)
+            {
+                newString += str[i];
+
+            }
+            document.getElementById("result").innerHTML="The reversed sentence:" + newString;
+            }
+        </script>
+
+        Enter sentence: <input id="sentence">
+        <button onclick="reverseString()">Reverse</button>
+        <p id="result"></p>
+    </body>
+</html>
